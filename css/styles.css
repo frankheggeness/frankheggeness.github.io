@@ -242,6 +242,11 @@
             background-color: #B8173E
             
         }
+        .bee{
+            height: 200px;
+            width: 200px;
+
+        }
         #title{
             display: inline-flex;
             text-align: center;
@@ -313,7 +318,7 @@
             border-radius: 20%;
         }
         .food{
-            width: 100px;
-            height: 100px;
+            width: 80px;
+            height: 80px;
         }
     }
