@@ -169,3 +169,5 @@ cj1.addEventListener('click', cj1Tot);
 cj2.addEventListener('click',cj2Tot);
 cj3.addEventListener('click', cj3Tot)
 salesTaxButton.addEventListener('click', salesTax);
+
+
