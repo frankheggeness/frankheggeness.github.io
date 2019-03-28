@@ -4,11 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Eat Jollibee Brahdah</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan|Press+Start+2P" rel="stylesheet">
 </head>
-<body>
-    <div>hello world</div>
-    <script src="js/app.js"></script>
+<body onload="calculatorModule()">
+    
+    <div id='titleBox'>
+            
+            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/8/84/Jollibee_2011_logo.svg/220px-Jollibee_2011_logo.svg.png" alt="Jollibee">
+    </div>
+    <h1></h1>
+    <div id="register">
+        <div id="moneysign">$</div>
+        <!-- <div id ='display'></div> -->
+        <input type="text" name='display' id='display' disabled>
+        <div id="row0">
+            <img id='cj1' class='food' src="https://www.jollibee.com.ph/wp-content/uploads/JB_PRODUCT-BANNER-AD_CHICKENJOY-WITH-FRIES_FA.png" alt="Chickenjoy Meal">
+            <img id='cj2' class='food' src="https://www.jollibee.com.ph/wp-content/uploads/JB_PRODUCT-BANNER-AD_CHICKENJOY-WITH-SPAGHETTI_FA.png" alt="Chickenjoy spaghetti">
+            <img id='cj3' class='food' src="https://www.jollibee.com.ph/wp-content/uploads/JB_PRODUCT-BANNER-AD_CHICKENJOY-WITH-BURGER-STEAK-AND-HALF-SPAGHETTI_FA.png" alt="Chickenjoy">
+        </div>
+        <div id= 'row1'>
+            <button class='button' id= 'sevenButton'>7</button>
+            <button class='button' id= 'eightButton'>8</button>
+            <button class='button' id='nineButton'>9</button>
+            <button class='button' id='divideButton'>÷</button>
+            <button class='button' id='clearButton'>Clear</button>
+        </div>
+        <div id="row2">
+            <button class= 'button' id ='fourButton'>4</button>
+            <button class='button' id='fiveButton'>5</button>
+            <button class='button' id='sixButton'>6</button>
+            <button class='button' id='xButton'>*</button>
+            <button class='button' id='getBalanceButton'>Get Balance</button>
+        </div>
+        <div id="row3">
+            <button class='button' id='oneButton'>1</button>
+            <button class='button' id='twoButton'>2</button>
+            <button class='button' id='threeButton'>3</button>
+            <button class='button' id='subtractButton'>-</button>
+            <button class='button' id= 'depositCashButton'>Deposit</button>
+        </div>
+        <div id="row4">
+            <button class='button' id= 'zeroButton'>0</button>
+            <button class='button' id= 'dubzeroButton'>00</button>
+            <button class='button' id='periodButton'>.</button>
+            <button class='button' id='addButton'>+</button>
+            <button class='button' id='withdrawButton'>Withdraw</button>
+        </div>
+        <div id="row5">
+            <button class='button' id='salesTaxButton'>Sales Tax</button>
+            <button class='button' id='equalButton'>=</button>
+        </div>
+
+
+
+
+
+    </div>
+    <script src="js/calculator.js"></script>
+    <script src="js/cash_register.js"></script>
 </body>
 </html>
